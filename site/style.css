@@ -565,3 +565,7 @@ text-indent: 10px;
  border-top: 1px dotted #000;
  float: right;
 }
+.img-icons:hover{
+	opacity: 1;
+	cursor: pointer;
+} 
