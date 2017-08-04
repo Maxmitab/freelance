@@ -120,6 +120,7 @@ main {
 	text-transform: uppercase;
 }
 .index_news_sign a,
+.index_news_sign span,
 .index_photo_sign a,
 .index_video_sign a{
 	font-size: 10px;
