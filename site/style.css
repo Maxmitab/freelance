@@ -35,17 +35,20 @@ main {
 .index_event_sign,
 .index_groups_sign,
 .excur_orange,
-.curent_event_sign {
+.curent_event_sign,
+.sign-study-event {
 	background-color: #ff751a;
 }
 .index_video_sign,
 .excur_blue,
-.index_calendar_sign {
+.index_calendar_sign,
+.sign-study-news {
 	background-color: #0000b3;
 }
 .index_sponsor_sign,
 .excur_red,
-.sponsors_sign {
+.sponsors_sign,
+.sign-study {
 	background-color: #ff0000;	
 }
 .index_news_sign, 
@@ -133,7 +136,8 @@ main {
 .index_news img {
 	padding: 10px 0px;
 }
-.index_news h4 {
+.index_news h4,
+.tab-capt {
 	color: #1a75ff;
 	font-size: 16px;
 	font-weight: bold;
