@@ -123,14 +123,14 @@ main {
 .index_news_sign span,
 .index_photo_sign a,
 .index_video_sign a{
-	font-size: 15px;
+	font-size: 10px;
 	color: white;
 	text-transform: uppercase;
 	text-shadow: none;
 }
 .index_news,
 .sponsors {
-	font-size: 16px;
+	font-size: 10px;
 	background: url(img/fon_down_all.jpg);
 	margin-bottom: 10px;
 }
