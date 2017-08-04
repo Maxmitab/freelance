@@ -54,8 +54,8 @@
                                     <li class="active" class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Платные группы</a></li>
-                                            <li class="active"><a href="#">Экскурсии</a></li>
+                                            <li><a href="https://maxmitab.github.io/freelance/site/study.html">Платные группы</a></li>
+                                            <li class="active"><a href="https://maxmitab.github.io/freelance/site/excurs.html">Экскурсии</a></li>
                                             <li><a href="#">Фото и видео съемка соревнований</a></li>
                                         </ul>
                                     </li>
@@ -97,7 +97,7 @@
                                         <p>экскурсии</p>
                                     </div>
                                     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 hidden-xs text-right">
-                                        <p><a href="excurs.html">все экскурсии</a></p>
+                                        <p><a href="https://maxmitab.github.io/freelance/site/excurs.html">все экскурсии</a></p>
                                     </div>
                                 </div>
                                 <!--конец заголовок новости-->
@@ -114,16 +114,16 @@
                                     <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12 img-icons">
                                         <div class="row">
                                             <div class="col-xs-3">
-                                                <img src="img/clock.png" class="img-responsive" alt="clock">
+                                                <img src="img/clock.png" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Длительность 3 часа" alt="clock">
                                             </div>
                                             <div class="col-xs-3">
-                                                <img src="img/info.png" class="img-responsive" alt="info">
+                                                <img src="img/info.png" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Отмена бронирования с возвратом средств возможна не позднее, чем за 7 дней до экскурсии Процент возвращаемых средств: 100%" alt="info">
                                             </div>
                                             <div class="col-xs-3">
-                                                <img src="img/worldwide.png" class="img-responsive" alt="worldwide">
+                                                <a href="https://maxmitab.github.io/freelance/site/world-excurs.html"><img src="img/worldwide.png" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Обзорная экскурсия" alt="worldwide"></a>
                                             </div>
                                             <div class="col-xs-3">
-                                                <img src="img/calendar.png" class="img-responsive" alt="calendar">
+                                                <img src="img/calendar.png" class="img-responsive" data-toggle="tooltip" data-placement="top" title="Период бронирования не позже 24 часа(ов) до начала экскурсии" alt="calendar">
                                             </div>
                                         </div>
                                     </div>
@@ -146,13 +146,13 @@
                                 </div>
                                 <div class="container-fluid index_groups hidden-sm hidden-xs text-left">
                                     <div class="row">
-                                        <div class="col-sm-12 block1"><a href="file:///D:/обучение/Програмист/Группа/Работа/спорт/site/group-excurs.html">Групповая</a></div>
+                                        <div class="col-sm-12 block1"><a href="https://maxmitab.github.io/freelance/site/group-excurs.html">Групповая</a></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-12 block2"><a href="file:///D:/обучение/Програмист/Группа/Работа/спорт/site/persn-excurs.html">Индивидуальная</a></div>
+                                        <div class="col-sm-12 block2"><a href="https://maxmitab.github.io/freelance/site/persn-excurs.html">Индивидуальная</a></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-12 block3"><a href="file:///D:/обучение/Програмист/Группа/Работа/спорт/site/world-excurs.html">Обзорная</a></div>
+                                        <div class="col-sm-12 block3"><a href="https://maxmitab.github.io/freelance/site/world-excurs.html">Обзорная</a></div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-12 block4"><a href="https://greenrule.github.io/Federation/photos.html">Фотосессия</a></div>
@@ -161,7 +161,7 @@
                                 <!--экскурсии заголовок-->
                                 <div class="container-fluid index_excursion_sign excur_blue">
                                     <!--экскурсии заголовок-->
-                                    <p><a href="file:///D:/обучение/Програмист/Группа/Работа/спорт/site/world-excurs.html">Обзорная экскурсия</a></p>
+                                    <p>Обзорная экскурсия</p>
                                 </div>
                                 <!--конец экскурсии заголовок-->
                                 <div class="container-fluid index_excursion text-left">
@@ -262,6 +262,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
   <script>
     $('#myModal').modal()
+  </script>
+    <script>
+      $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
   </script>
   </body>
 </html>
