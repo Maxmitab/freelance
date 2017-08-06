@@ -371,6 +371,7 @@ main {
 }
 
 
+
 /*--- MAX code begin ----*/
 
 .table {
@@ -424,6 +425,7 @@ table tr:nth-child(2n) {
         color: #1a75ff;
     }
 }
+
 
 
 /*-------------*/
@@ -586,13 +588,14 @@ table tr:nth-child(2n) {
 }
 
 
+
 /*-------------*/
 
 .block1,
 .block2,
 .block3,
 .block4 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2.4em;
     border-bottom: 1px solid #eee;
     text-indent: 10px;
@@ -649,6 +652,7 @@ table tr:nth-child(2n) {
     opacity: 1;
     cursor: pointer;
 }
+
 .img-icons img {
-    margin:0 auto;
+    margin: 0 auto;
 }
